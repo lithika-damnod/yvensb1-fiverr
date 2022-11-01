@@ -2,6 +2,8 @@
 
 ### API Endpoints
 
+###### SUCCESS EVENTS RETURN `{ success: true } `
+
 - #### API Server Status<br>
 
   `"/api/"`<br>
@@ -38,27 +40,28 @@
 
   - ##### PUT
 
-    - for updating user details
-    - user_id is compulsory to be specified
-    - pass in field names that needs to be changed along with the updated value
-    - ###### JSON STRUCTURE
+            - for updating user details
+            - user_id is compulsory to be specified
+            - pass in field names that needs to be changed along with the updated value
+            - ###### JSON STRUCTURE
 
-    ```
-        {
-            "user_id": value,
-            "first_name": "updated_value",
-            "last_name": "updated_value",
-            "age": updated_value,
-            "address_no": "updated_value",
-            "address_street":"updated_value",
-            "address_city":"updated_value",
-            "address_country":"updated_value"
-        }
-    ```
+            ```
+                {
+                    "user_id": value,
+                    "first_name": "updated_value",
+                    "last_name": "updated_value",
+                    "age": updated_value,
+                    "address_no": "updated_value",
+                    "address_street":"updated_value",
+                    "address_city":"updated_value",
+                    "address_country":"updated_value"
+                }
+            ```
 
-    - #### `"/api/user/<id>"`
-      ##### Allowed Methods: [GET]
-      - ##### Example: `/api/user/1`
-         <img width="597" alt="image" src="https://user-images.githubusercontent.com/61654812/199191205-08fb6298-57ef-4124-9d02-3d7891a50645.png">
-    - ###### SUCCESS EVENTS RETURN `{ success: true } `
+            - #### `"/api/user/<id>"`
+              ##### Allowed Methods: [GET]
+
+        - ##### Example: `/api/user/1`
+        <img width="597" alt="image" src="https://user-images.githubusercontent.com/61654812/199191205-08fb6298-57ef-4124-9d02-3d7891a50645.png">
+
     <br>
