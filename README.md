@@ -60,7 +60,6 @@
 
             - #### `"/api/user/<id>"`
               ##### Allowed Methods: [GET]
-
         - ##### Example: `/api/user/1`
         <img width="597" alt="image" src="https://user-images.githubusercontent.com/61654812/199191205-08fb6298-57ef-4124-9d02-3d7891a50645.png">
 
