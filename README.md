@@ -52,9 +52,9 @@
             "last_name": "value",
             "age": value,
             "address_no": "value",
-            "address_street":"value",
-            "address_city":"value",
-            "address_country":"value"
+            "address_street": "value",
+            "address_city": "value",
+            "address_country": "value"
         }
     ```
 
