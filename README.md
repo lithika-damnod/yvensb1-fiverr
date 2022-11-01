@@ -48,13 +48,13 @@
     ```
         {
             "user_id": value,
-            "first_name": "updated_value",
-            "last_name": "updated_value",
-            "age": updated_value,
-            "address_no": "updated_value",
-            "address_street":"updated_value",
-            "address_city":"updated_value",
-            "address_country":"updated_value"
+            "first_name": "value",
+            "last_name": "value",
+            "age": value,
+            "address_no": "value",
+            "address_street":"value",
+            "address_city":"value",
+            "address_country":"value"
         }
     ```
 
